@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HoopMind AI</title>
+
+    <style>
+        body{
+            margin: 0;
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: #111;
+            color: white;
+            text-align: center;
+        }
+
+        header{
+            padding: 50px 20px;
+            background: linear-gradient(to right, #000, #3b1d00);
+        }
+
+        h1 {
+            font-size: 45px;
+            margin-bottom: 10px;
+        }
+        
+        h2{
+            color: #f0c14b;
+        }
+
+        p{
+            line-height: 1.6;
+        }
+        
+        section{
+            padding: 40px 20px;
+        }
+
+        .gallery {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 25px;
+        }
+
+        .card {
+            background-color: #1c1c1c;
+            width: 320px;
+            padding: 20px;
+            border-radius: 15px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
+        }
+
+        .card img, video{
+            width: 100%;
+            border-radius: 10px;
+        }
+
+        audio{
+            width: 100%;
+            margin-top: 10px;
+        }
+        
+        .tool{
+            color: #f0c14b;
+            font-weight: bold;
+        }
+
+        footer{
+            background-color: black;
+            padding: 20;
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body>
+    <header> 
+        <h1>🏀 HoopMind AI</h1>
+        <p>
+            HoopMind AI is a basketball motivation website that helps users stay inspired 
+            through AI-generated player, artwork, morivational music, and an AI coach avatar.
+            The purpose of the site is to give users confidence, focus, and energy before
+            workouts, games, or practice. 
+        </p>
+    </header>
+
+    <section>
+        <h2>How to Use</h2>
+        <p>
+            Start by viewing the basketball legend motivation cards. Then watch the AI Coach
+            video for encouragement, Finally, listen to the motivationa music to get energized
+            before working out, practicing, or playing basketball.
+        </p>
+    </section>
+
+    <section>
+        <h2>Legend Motivation</h2>
+
+        <div class="gallery">
+            <div class="card">
+                <img src="Michael_Jordan.jpg" alt="Michael Jordan AI artwork">
+                <h3>Michael Jordan - Championship Mindset</h3>
+                <p>Jordan represents greatness, discipline, and the drive to win</p>
+                <p class="tool">AI Tool Used: Artlist</p>
+            </div>
+
+            <div class="card">
+                <img src="Kobe_Bryant.jpg" alt="Kobe Bryant AI artwork">
+                <h3>Kobe Bryant - Mamba Confidence</h3>
+                <p>Kobe represents focus, confidence, and never backing down from pressure</p>
+                <p class="tool">AI Tool Used: Artlist</p>
+            </div>
+
+            <div class="card">
+                <img src="LeBron_James.jpg" alt="Lebron James AI artwork">
+                <h3>Lebron James - Leadership</h3>
+                <p>Lebron represents leadership, strength, and staying ready for big moments.</p>
+                <p class="tool">AI Tool Used: Artlist</p>
+            </div>
+
+            <div class="card">
+                <img src="Devin_Booker.jpg" alt="Devin Booker AI artwork">
+                <h3>Devin Booker - Valley Energy</h3>
+                <p>Booker represents confidence, scoring ability, and representing Phoenix.</p>
+                <p class="tool">AI Tool Used: Artlist</p>
+            </div>
+
+            <div class="card">
+                <img src="Giannis_Antetokounmpo.jpg" alt="Giannis Antetokounmpo AI artwork">
+                <h3>Giannis Antetokounmpo - The Greek God</h3>
+                <p>Giannis represents power, hard work, and an unstoppable mindset.</p>
+                <p class="tool">AI Tool Used: Artlist</p>
+            </div>
+
+            <div class="card">
+                <img src="Michael_Jordan.jpg" alt="Michael Jordan AI artwork">
+                <h3>Michael Jordan - Championship Mindset</h3>
+                <p>Jordan represents greatness, discipline, and the drive to win</p>
+                <p class="tool">AI Tool Used: Artlist</p>
+            </div>
+
+        </div>
+    </section>
+
+    <section>
+        <h2>AI Coach</h2>
+        <div class="card">
+            <video controls>
+                <source src="Coach.mp4" type="video/mp4">
+            </video>
+            <h3>Coach AI - Motivational Leader</h3>
+            <p>
+                This AI coach gives motivation to help users stay focused, disciplined, and ready to improve.
+            </p>
+            <p class="tool">AI Tool Used: D-ID / HeyGen</p>
+
+        </div>
+    </section>
+
+    <section>
+        <h2>Music Zone</h2>
+
+        <div class="gallery">
+
+            <div class="card">
+                <h3>Receipt Tape</h3>
+                <p>A motivational song for workouts, practice, and game-day energy.</p>
+                <p class="tool">AI Tool Used: Suno</p>
+                <audio controls>
+                    <source src="Receipt Tape.mp3" type="audio/mpeg">
+                </audio>
+            </div>
+
+            <div class="card">
+                <h3>Neon Receipt Victory</h3>
+                <p>A focused track designed to help players stay confident and motivated</p>
+                <p class="tool">AI Tool Used: Suno</p>
+                <audio controls>
+                    <source src="Neon Receipt Victory.mp3" type="audio/mpeg">
+                </audio>
+            </div>
+
+        </div>
+    </section>
+
+    <section>
+        <h2>AI Emplyees Used</h2>
+        <p>
+            I acted as the Manager of my AI team. I used Artist to make some cool AI images
+            helped create the basketball artwork. HeyGen and D-ID helped create AI avatar videos. 
+            Suno helped create motivational music for the site.
+        </p>
+    </section>
+
+    <footer>
+        Created for my final AI Project: HoopMind AI.
+    </footer>
+</body>
+</html>
